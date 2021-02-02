@@ -5,20 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <script src="js/lib/jquery.js"></script>
     <script src="js/app.js"></script>
     <title>To-do List</title>
 </head>
 
 <body>
+    <button id="modalBtn" class="button">Need Help?</button>
+    <div id="instructonModal" class="modal">
+        <div class="modal-content">
+            <span class="closeBtn"><i class="fa fa-ban" aria-hidden="true"></i></span>
+            <h2>Instructions</h2>
+            <p> <span class="modalSpan">To ADD a new task:</span> Type your task into the 'Enter New Task Box' and press
+                enter.
+                Your task will be
+                added at the bottom of the task list</p>
+            <p> <span class="modalSpan">To CHECK-OFF a task:</span> Click on a task to cross or uncross a task on the
+                list</p>
+            <p> <span class="modalSpan"> To DELETE a task:</span> Click on the <i class="fa fa-ban"
+                    aria-hidden="true"></i> to the right of the task</p>
+        </div>
+    </div>
     <main class="container">
         <h1>To-Do List</h1>
-        <input type="text" id="task">
+        <input type="text" id="task" placeholder="Enter New Task">
         <ul>
-            <li><span>X</span>Clean litter box</li>
-            <li><span>X</span>Play with kitty</li>
-            <li><span>X</span>Feed kitty</li>
-            <li><span>X</span>Pet kitty</li>
+            <li><span class='deleteSpan'><i class="fa fa-ban" aria-hidden="true"></i></span> Clean litter box</li>
+            <li><span class='deleteSpan'><i class="fa fa-ban" aria-hidden="true"></i></span> Play with kitty</li>
+            <li><span class='deleteSpan'><i class="fa fa-ban" aria-hidden="true"></i></span> Feed kitty</li>
+            <li><span class='deleteSpan'><i class="fa fa-ban" aria-hidden="true"></i></span> Pet kitty</li>
         </ul>
     </main>
 
