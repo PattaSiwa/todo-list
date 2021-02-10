@@ -31,14 +31,14 @@ ul{
     padding: 0;
 }
 li {
-    background-color: #F7BE99;
+    background-color: #C1E9D8;
     height:40px;
     line-height: 40px;
     color: #8E827B;
     padding-left: 15px;
 }
 li:nth-child(2n){
-    background-color: #FDF2EB;
+    background-color: #E8F1ED;
 
 }
 
@@ -130,7 +130,7 @@ button:hover {
 
 .modal-content {
     background-color: #FDF2EB;
-    margin: 20% auto;
+    margin: 10% auto;
     width: 70%;
     padding: 20px;
     box-shadow: 0 5px 8px 0 rgba(0,0,0,0.4),0 7px 20px 0 rgba(0,0,0,0.4);
